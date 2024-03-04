@@ -1,0 +1,120 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #c4d4e0;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    main {
+      margin: 20px;
+    }
+    
+    section {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .image-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .image-section img {
+      width: 300px;
+      height: auto;
+    }
+    .image-logo img{
+      width: 100%; 
+      height: 50%;
+    }
+    footer {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    a:link, a:visited {
+      background-color: #0000FF;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover, a:active {
+      background-color: red;
+    }
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+    }
+    
+    .scroll-to-top:hover {
+      background-color: #555;
+    }
+    .contact-table {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .contact-table td {
+      padding: 5px 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .contact-form-table {
+      width: 100%;
+
+    }
+    
+    .contact-form-table td {
+      padding: 10px;
+    }
+    
+    .contact-form-table label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .table-section {
+      align-content: center;
+    }
